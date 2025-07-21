@@ -1,0 +1,15 @@
+[package]
+name = "char_dance"
+version = "0.1.0"
+edition = "2024"
+description = "Char dancing on terminal in pure basic rust"
+author = "[Rajnish Kumar hi@rajnish.dev]"
+repository = "https://github.com/dev-rajnish/rusty-learnings"
+readme = "README.md"
+categories = ["command-line-fun"]
+keywords = ["cli","terminal","animation","fun","basics"]
+license = "MIT"
+default-run = "char_dance"
+
+[dependencies]
+#0
