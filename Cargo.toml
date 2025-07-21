@@ -1,0 +1,11 @@
+[package]
+name = "rust-learnings"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+"char_dance",
+  ]
+
+[dependencies]
