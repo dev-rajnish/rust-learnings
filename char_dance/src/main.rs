@@ -29,6 +29,12 @@ fn forward_char() {
             // print!("\x1B[{}m {c} \x1B[0m", i + 30);
 
             print_delay();
+            print_border(40);
+            print_border(90);
+            println!();
+
+            print_border(90);
+            print_border(40);
             println!();
 
             print_border(90);
@@ -55,6 +61,11 @@ fn backward_char() {
             //print!("\x1B[{}m {c} \x1B[0m", i - 40);
 
             print_delay();
+            print_border(40);
+            print_border(90);
+            println!();
+            print_border(40);
+            print_border(90);
             println!();
 
             print_border(90);
